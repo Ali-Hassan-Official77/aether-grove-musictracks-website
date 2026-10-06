@@ -1,0 +1,10 @@
+{
+  "name": "Aether Grove — Rock Music Network",
+  "short_name": "Aether Grove",
+  "description": "A premium listening network for independent music.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111D",
+  "theme_color": "#07111D",
+  "icons": [{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
