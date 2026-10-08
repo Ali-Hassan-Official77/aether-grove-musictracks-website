@@ -37,6 +37,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </PlayerProvider>
         </ThemeProvider>
         <script dangerouslySetInnerHTML={{__html:`(function(){try{var t=localStorage.getItem('aether-theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}})()`}} />
+
+        <script src="https://cdn.zanderio.ai/widget/loader.js" data-id="wdg_qt9OeNK8bjirNlB6R7WBDFU7" defer></script>
       </body>
     </html>
   );
